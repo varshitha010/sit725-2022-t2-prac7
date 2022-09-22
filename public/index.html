@@ -1,0 +1,89 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Environmental Sustainability</title>
+  <meta name="description" content="Environmental & Sustainability">
+  <meta name="author" content="varshitha">
+
+  <meta property="og:title" content="Environmental Sustainability">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Environmental Sustainability">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper navbar-size nav-color ">
+          <a href="#" class="tooltipped brand-logo" data-position="right" data-tooltip="Hey there! I'm Varshitha">
+            <img class="user-image-size" src="images/user.png" />
+          </a>
+          <a href="#" class="">
+           
+          </a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a target="_blank" class="card-text" href="https://www.linkedin.com/in/varshitha-kandimalla-a87b2011a/">LinkedIn</a></li>
+          </ul>
+        </div>
+    </nav>
+    <main class="main-body">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 center-align">
+            <h1 id="heading">Environment and Sustainability</h1>
+            <p class="flow-text">
+              Environmental sustainability is the responsibility to conserve natural resources and protect global ecosystems to support health and wellbeing, now and in the future.</p>
+          </div>
+          <div class="col s12 center-align">
+            <img class="materialboxed materialboxed-image" src="images/sustain.png">
+          </div>
+          <div class="col s12 center-align">
+            <p class="flow-text">
+              Top 8 Environmental Sustainability Issues We Need to Address
+          </div>
+          <div class="col s12 center-align">
+            <a class="waves-effect waves-light btn click-me-button modal-trigger" id="clickMeButton" data-target="modal1"><i class="material-icons left">auto_fix_high</i>Click Here to Add more issues</a>
+          </div>
+        </div>
+        <div class="row" id="card-section">
+        </div>
+      </div>
+      <div id="modal1" class="modal modal-fixed-footer">
+        <div class="row modal-content">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="title" type="text" class="validate" required="" aria-required="true">
+                <label for="title">Title</label>
+                <span class="helper-text" data-error="Please enter the title" data-success="right"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="description" type="text" class="validate" required="" aria-required="true">
+                <label for="description">Description</label>
+                <span class="helper-text" data-error="Please enter the description" data-success="right"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12 center-align">
+                <a class="waves-effect waves-light btn" id="formSubmit">submit</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

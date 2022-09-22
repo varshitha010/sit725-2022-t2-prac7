@@ -1,0 +1,23 @@
+.navbar-size {
+    width: 95%;
+    margin: 0 auto;
+}
+.user-image-size {
+    height: 56px;
+    margin: 4px 12px;
+}
+.main-body {
+    background-color: #f5c000;
+    color: black;
+}
+.materialboxed-image {
+    margin: 0 auto;
+    height: 400px;
+}
+.card-text {
+    color: #212121
+}
+.nav-color{
+    background-color: #f5c000;
+    width: 100%;
+}
